@@ -19,6 +19,7 @@ function App() {
 
   return (
     <div className="gallery">
+      <a className="githubLink" href="https://github.com/MichaelMcCann1/Image-Gallery-Animation"><img src="Images/GitHub.svg"></img></a>
       <div className="left">
         {imageArray.map((item, index) => (
           <img key={index} style={{top: `${index*100+top}%`}} src={`Images/${item.src}`} alt={item.alt}></img>
