@@ -1,5 +1,7 @@
 # Image-Gallery-Animation
 
+**Live Link to Project: https://mm-imagegalleryanimation.web.app/**
+
 An image gallery with an image transition animation I created using ReactJS. To use the image gallery you first need to put all images in the Images folder that is inside the Public folder. Then in `App.js` you must provide the file name of each image inside the `imageArray` array. You can also add an `alt` tag to each image. The code below shows how the array is set up.
 ``` javascript
 const imageArray = [{src:'house1.jpg', alt:""}, {src:'house2.jpg', alt:""}, ... , {src:'house5.jpg', alt:""}]
